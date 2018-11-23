@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+
+form{
+	margin: 0;
+	padding: 0;
+	
+}
+#req{
+	width: 700px;
+	margin: 10px 10px 10px 100px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid red;
+	border-radius: 15px;
+	box-shadow:5px 5px 5px 5px red;
+}
+
+.errMsg{
+	color: red;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#footer{
+	color:red;
+	font-style:italic;
+	width:850px;
+	padding:5px 20px 5px 20px;
+	border: 1px solid red;
+	display: inline-block;
+}
+
+.btn{
+	font-size:14px;
+	font-weight:bolder;
+	padding: 5px 5px 5px 5px;
+	background-color: black;
+	color:white;
+	border:1px solid red;	
+}
+
+#loginForm{
+	width: 300px;
+	height: 900px
+	border: 1px solid #cccccc;
+	float: left;
+	margin: 50px 10px 20px 10px;
+	padding: 30px 20px 20px 20px;
+	border-radius: 10px;
+	box-shadow:5px 5px 5px 5px green;
+	background-color: #cccccc;
+	
+}
+
+body{
+	
+	 border: 10px double black;
+    padding: 25px;
+    background-color: #ccffcc;
+    background-origin: content-box;
+    height: 710px;
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-image: url(buses.jpg);
+}
+
+
+h1{
+	color: red;
+}
+hr{
+	border-color: red;
+}
+#centerCnt{
+	width: 1200px;
+	display: inline-block;
+	
+	
+}
+
+.myimg{
+	width: 300px;
+	margin: 10px 10px 10px 10px;
+	float: left;
+}

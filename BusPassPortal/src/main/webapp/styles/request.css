@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+
+form{
+	margin: 0;
+	padding: 0;
+	
+}
+#req{
+	width: 700px;
+	margin: 10px 10px 10px 100px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid black;
+	border-radius: 15px;
+	box-shadow:5px 5px 5px 5px yellow;
+	background-color: #cccccc;
+}
+
+.errMsg{
+	color: red;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+
+.btn{
+	font-size:14px;
+	font-weight:bolder;
+	padding: 5px 5px 5px 5px;
+	background-color: black;
+	color:white;
+	border:1px solid red;	
+}
+
+
+body{
+	
+	 border: 10px double black;
+    padding: 25px;
+    background-origin: content-box;
+    height: 710px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url(im.jpg);
+}
+
+
+h1{
+	color: #fffccc;
+}
+hr{
+	border-color: red;
+}
+#centerCnt{
+	width: 1200px;
+	display: inline-block;
+	background-color: #ccffcc;
+	
+	
+}
+
+.myimg{
+	width: 300px;
+	margin: 10px 10px 10px 10px;
+	float: left;
+}

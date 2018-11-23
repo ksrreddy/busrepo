@@ -1,0 +1,58 @@
+ create database capdb;
+ 
+ drop table route;
+ create table route(routeid int primary key auto_increment,
+ routepath varchar(255) not null,
+ routename varchar(25) not null,
+ totalseats int,
+ occupiedseats int,
+ busno varchar(10),
+ driverNo varchar(25),
+ totalkilometers int);
+ 
+ insert into route(routepath,routename,totalseats,occupiedseats,busno,driverNo,totalkilometers) values 
+ ('Chennai-MIPL,SPKovil,MaraimaliNagar,Guduvancheri,Urappakkam,Vandalur,Perungalatur,Tambaram', 
+ 'MIPL-Tambaram',60,15,'TN-1234','90875423',40);
+ 
+ insert into route(routepath,routename,totalseats,occupiedseats,busno,driverNo,totalkilometers) values 
+ ('Chennai-MIPL,,Tambaram,Chrompet,Pallavaram,Mambalam', 
+ 'MIPL-Mambalam',60,20,'TN-4356','76876876',50);
+ 
+ insert into route(routepath,routename,totalseats,occupiedseats,busno,driverNo,totalkilometers) values 
+ ('Chennai-MIPL,,Tambaram,Kilkattalai,KamachiHospital,Chennai1,Thuraipakkam,Tidel,Tiruvanmiyur', 
+ 'MIPL-Thiruvanmiyur',50,18,'TN-7658','1365765767',65);
+ 
+ 
+ create table adminLogin(userid int primary key auto_increment,
+ username varchar(100) not null,
+ userpassword varchar(100) not null);
+ 
+ insert into adminLogin(username,userpassword)
+  values('tom','tom123');
+   insert into adminLogin(username,userpassword)
+  values('jerry','jerry456');
+   insert into adminLogin(username,userpassword)
+  values('jack','jack111');
+   insert into adminLogin(username,userpassword)
+  values('kamal','kamal901');
+  
+  create table buspassrequest(
+  requestId int primary key auto_increment,
+  employeeId varchar(10),
+  firstName varchar(100),
+  lastName varchar(100),
+  gender varchar(10),
+  address varchar(255),
+  dateofjoin date,
+  location varchar(50),
+  pickuploc varchar(100),
+  pickuptime time,
+  email varchar(100)
+  );
+  
+  insert into buspassrequest(employeeId ,  firstName ,  lastName ,  gender,  address ,
+  dateofjoin ,  location ,  pickuploc,  pickuptime ,  email) values(?,?,?,?,?,?,?,?,?,? );
+  
+  create table transaction(transaction_id int primary key auto_increment,employeeId varchar(10),
+ transaction_date date,calculated_km int,monthly_fare int,route_id int); 
+  

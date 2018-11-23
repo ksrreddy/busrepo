@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+h1{
+	color: red;
+}
+hr{
+	border-color: red;
+}
+
+#loginForm{
+	width: 300px;
+	height: 400px
+	border: 1px solid #cccccc;
+	float: left;
+	margin: 50px 10px 20px 10px;
+	padding: 30px 20px 20px 20px;
+	border-radius: 10px;
+	box-shadow:5px 5px 5px 5px green;
+	background-color: #cccccc;
+	
+}
+.btn{
+	font-size:14px;
+	font-weight:bolder;
+	padding: 5px 5px 5px 5px;
+	background-color: black;
+	color:white;
+	border:1px solid red;	
+}
+#cnt{
+	width: 550px;
+	margin: 20px 20px 20px 20px;
+	padding:10px 10px 10px 10px;
+	border: 2px solid green;
+	box-shadow: 5px 5px 5px 5px green; 
+	height:400px;
+	display: inline-block;
+	background-color: #ccccff;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Page</title>
+<link href="styles/mainPage.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+<div id="cnt">
+	<div>
+		<h2 style="color:red;" align="center">Admin Service Portal</h2>
+	</div>
+	<hr style="border-color: red;">
+	<div id="menu">
+		
+		<ul>
+			<li><a href="PendingServlet"  target="myFrame">Pending Request</a></li>
+			<li><a href="pages/addRoute.html"  target="myFrame">Add New Route</a></li>
+			<li><a href="ListAllRouteServlet" target="myFrame" >List All Route</a></li>
+			<li><a href="pages/getReport.html"  target="myFrame">Monthly Report</a></li>
+			<li><a href="LogOutServlet">Logout</a></li>
+			
+		</ul>
+		
+	</div>
+	
+	<div id="myFrm">
+	
+	<iframe name="myFrame" src="pages/imgPage.html"></iframe>
+	
+	</div>
+
+</div>
+
+
+</body>
+</html>

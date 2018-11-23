@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="../styles/request.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<form method="post" action="../PassRequestServlet">
+<div id="req">
+	<h2 align="center" style="color:blue">Bus Pass Request Form</h2>
+<table style="border-top: 1px solid red; width: 700px;" cellspacing="10px">
+	<tr>
+		<td>Employee Id: *</td>
+		<td>
+			<input type="text" name="employeeId" size="20">
+		</td>
+		<td>
+		</td>
+	</tr>
+	<tr>
+		<td>FirstName: *</td>
+		<td>
+			<input type="text" name="firstName" size="20">
+		</td>
+		<td>
+		</td>
+	</tr>
+	<tr>
+		<td>LastName:</td>
+		<td>
+			<input type="text" name="lastName" size="20">
+		</td>
+		<td>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>EmailId: *</td>
+		<td>
+			<input type="text" name="email" size="20">
+		</td>
+		<td>
+		</td>
+	</tr>
+	
+	
+	<tr>
+		<td>Gender:</td>
+		<td>
+			<input type="radio" name="gender" value="Male">Male
+			<input type="radio" name="gender" value="Female">Female
+			<input type="radio" name="gender" value="Other">Other
+			
+		</td>
+		<td>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>Designation:</td>
+		<td>
+			<select name="designation">
+				<option value="Software Engineer">Software Engineer</option>
+				<option value="SrSoftware Engineer">Senior Software Engineer</option>
+				<option value="Associate Consultant">Associate Consultant </option>
+				<option value="Consultant">Consultant</option>
+				<option value="SrConsultant">Senior Consultant</option>
+				<option value="Manager">Manager</option>
+				<option value="SrManager">Senior Manager</option>
+				<option value="Above">Above Level</option>
+			</select>
+		</td>
+		<td>
+		</td>
+	</tr>
+	<tr>
+		<td>Address:</td>
+		<td>
+			<textarea rows="5" cols="20"  name="address"></textarea>
+		</td>
+		<td>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>Date Of Joining:</td>
+		<td>
+			<input type="date" name="doj" >
+		</td>
+		<td>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>Location:</td>
+		<td>
+			<select name="location">
+				<option value="Chennai-MIPL">Chennai-MIPL</option>
+				<option value="Chennai-SIPCOT">Chennai-SIPCOT</option>
+				<option value="Chennai-PCT">Chennai-PCT</option>
+			</select>
+		</td>
+		<td>
+		</td>
+	</tr>
+	<tr>
+		<td>PickUp Location:</td>
+		<td>
+			<select name="pickuploc">
+				<option value="Tambaran">Tambaran</option>
+						<option value="Chrompet">Chrompet</option>
+								<option value="Pallavaram">Pallavaram</option>
+										<option value="MaraimaliNagar">MaraimaliNagar</option>
+				
+			</select>
+		</td>
+		<td>
+		</td>
+	</tr>
+	
+	
+	<tr>
+		<td>PickUp Time:</td>
+		<td>
+			<input type="time" name="pickuptime">
+		</td>
+		<td>
+		
+		</td>
+	</tr>
+
+<!-- <tr>
+		<td>Drop Location:</td>
+		<td>
+			<select name="droploc">
+				<option value="Tambaran">Tambaran</option>
+						<option value="Chrompet">Chrompet</option>
+								<option value="Pallavaram">Pallavaram</option>
+										<option value="MaraimaliNagar">MaraimaliNagar</option>
+				
+			</select>
+		</td>
+		<td>
+		</td>
+	</tr>
+	<tr>
+		<td>Drop Time:</td>
+		<td>
+			<input type="time" name="dropime">
+		</td>
+		<td>
+		
+		</td>
+	</tr> -->
+	<tr>
+		<td></td>
+		<td>
+			<input type="submit" class="btn" name="request" value="Submit Request">
+		</td>
+		<td></td>
+	</tr>
+	
+</table>
+</div>
+
+</form>
+
+</body>
+</html>
